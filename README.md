@@ -14,11 +14,13 @@ To this end, we propose ReadingBank, a benchmark dataset with 500,000 real-world
 
 ## Download
 
-Download pre-processed [data](https://layoutlm.blob.core.windows.net/readingbank/dataset/ReadingBank.zip), which contains text and layout information.
+Download pre-processed [data](https://layoutlm.blob.core.windows.net/readingbank/dataset/ReadingBank.zip?sv=2022-11-02&ss=b&srt=o&sp=r&se=2033-06-08T16:48:15Z&st=2023-06-08T08:48:15Z&spr=https&sig=a9VXrihTzbWyVfaIDlIT1Z0FoR1073VB0RLQUMuudD4%3D
+), which contains text and layout information.
 
 Our data can only be used for research purpose. Please DO NOT re-distribute our data. 
 
-To guarantee there is no potential ethical violation, we publicize a proportion of our dataset (about [100 pages](https://layoutlm.blob.core.windows.net/readingbank/dataset/ReadingBank_images_examples.zip)) and this subset will be manually checked and redacted while the access of the whole version requires our further permission. All the data in our dataset will be protected by Apache 2.0 license.
+To guarantee there is no potential ethical violation, we publicize a proportion of our dataset (about [100 pages](https://layoutlm.blob.core.windows.net/readingbank/dataset/ReadingBank_images_examples.zip?sv=2022-11-02&ss=b&srt=o&sp=r&se=2033-06-08T16:48:15Z&st=2023-06-08T08:48:15Z&spr=https&sig=a9VXrihTzbWyVfaIDlIT1Z0FoR1073VB0RLQUMuudD4%3D
+)) and this subset will be manually checked and redacted while the access of the whole version requires our further permission. All the data in our dataset will be protected by Apache 2.0 license.
 
 We further provide some [examples](examples/images) of them and the [visualization](examples/visual) of their reading orders.
 
