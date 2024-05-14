@@ -13,14 +13,13 @@ Reading order detection, aiming to capture the word sequence which can be natura
 To this end, we propose ReadingBank, a benchmark dataset with 500,000 real-world document images for reading order detection. Distinct from the conventional human-labeled data, the proposed method obtains high-quality reading order annotations in a simple but effective way with automated metadata extraction. Inspired by existing document layout annotations, there are a large number of Microsoft WORD documents with a wide variety of templates that are available on the internet. Typically, the WORD documents have two formats: the binary format (Doc files) and the XML format (DocX files). In this work, we exclusively use WORD documents with the XML format as the reading order information is embedded in the XML metadata. Furthermore, we convert the WORD documents into the PDF format so that the 2D bounding box of each word can be easily extracted using any off-the-shelf PDF parser. Finally, we apply a carefully designed coloring scheme to align the text in the XML metadata with the bounding boxes in PDFs.
 
 ## Download
+Please find the ReadingBank data and LayoutReader models at [this OneDrive link](https://mail2sysueducn-my.sharepoint.com/:f:/g/personal/huangyp28_mail2_sysu_edu_cn/EmHOkXN76dZMqrdr5pv6G4sBDyS8mvyBD72MUUb9VdkXYw?e=aeb4UR).
 
-Download pre-processed [data](https://layoutlm.blob.core.windows.net/readingbank/dataset/ReadingBank.zip?sv=2022-11-02&ss=b&srt=o&sp=r&se=2033-06-08T16:48:15Z&st=2023-06-08T08:48:15Z&spr=https&sig=a9VXrihTzbWyVfaIDlIT1Z0FoR1073VB0RLQUMuudD4%3D
-), which contains text and layout information.
+Specifically, download pre-processed data ([`ReadingBank.zip`](https://mail2sysueducn-my.sharepoint.com/:u:/g/personal/huangyp28_mail2_sysu_edu_cn/Efh3ZWjsA-xFrH2FSjyhSVoBMak6ypmbABWmJEmPwtKhhw?e=tbthMD)), which contains text and layout information.
 
 Our data can only be used for research purpose. Please DO NOT re-distribute our data. 
 
-To guarantee there is no potential ethical violation, we publicize a proportion of our dataset (about [100 pages](https://layoutlm.blob.core.windows.net/readingbank/dataset/ReadingBank_images_examples.zip?sv=2022-11-02&ss=b&srt=o&sp=r&se=2033-06-08T16:48:15Z&st=2023-06-08T08:48:15Z&spr=https&sig=a9VXrihTzbWyVfaIDlIT1Z0FoR1073VB0RLQUMuudD4%3D
-)) and this subset will be manually checked and redacted while the access of the whole version requires our further permission. All the data in our dataset will be protected by Apache 2.0 license.
+To guarantee there is no potential ethical violation, we publicize a proportion of our dataset (about 100 pages ([`ReadingBank_images_examples.zip`](https://mail2sysueducn-my.sharepoint.com/:u:/g/personal/huangyp28_mail2_sysu_edu_cn/EbvFmO4BbnxDrgA_a40R8xYB19KIWel7ZcNyBKErwYDwLA?e=dDoscV))) and this subset will be manually checked and redacted while the access of the whole version requires our further permission. All the data in our dataset will be protected by Apache 2.0 license.
 
 We further provide some [examples](examples/images) of them and the [visualization](examples/visual) of their reading orders.
 
