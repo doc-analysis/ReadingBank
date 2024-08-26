@@ -13,13 +13,13 @@ Reading order detection, aiming to capture the word sequence which can be natura
 To this end, we propose ReadingBank, a benchmark dataset with 500,000 real-world document images for reading order detection. Distinct from the conventional human-labeled data, the proposed method obtains high-quality reading order annotations in a simple but effective way with automated metadata extraction. Inspired by existing document layout annotations, there are a large number of Microsoft WORD documents with a wide variety of templates that are available on the internet. Typically, the WORD documents have two formats: the binary format (Doc files) and the XML format (DocX files). In this work, we exclusively use WORD documents with the XML format as the reading order information is embedded in the XML metadata. Furthermore, we convert the WORD documents into the PDF format so that the 2D bounding box of each word can be easily extracted using any off-the-shelf PDF parser. Finally, we apply a carefully designed coloring scheme to align the text in the XML metadata with the bounding boxes in PDFs.
 
 ## Download
-Please find the ReadingBank data and LayoutReader models at [this OneDrive link](https://mail2sysueducn-my.sharepoint.com/:f:/g/personal/huangyp28_mail2_sysu_edu_cn/EmHOkXN76dZMqrdr5pv6G4sBDyS8mvyBD72MUUb9VdkXYw?e=aeb4UR).
+Please find the ReadingBank data and LayoutReader models at [this Google Drive link](https://drive.google.com/drive/folders/150JnOCT9psauOpR684_MN4aqeq2U8BlW?usp=drive_link).
 
-Specifically, download pre-processed data ([`ReadingBank.zip`](https://mail2sysueducn-my.sharepoint.com/:u:/g/personal/huangyp28_mail2_sysu_edu_cn/Efh3ZWjsA-xFrH2FSjyhSVoBMak6ypmbABWmJEmPwtKhhw?e=tbthMD)), which contains text and layout information.
+Specifically, download pre-processed data ([`ReadingBank.zip`](https://drive.google.com/file/d/15SydqWAXWZZRtAmSf6ZD7b51A8ASuC8i/view?usp=drive_link)), which contains text and layout information.
 
 Our data can only be used for research purpose. Please DO NOT re-distribute our data. 
 
-To guarantee there is no potential ethical violation, we publicize a proportion of our dataset (about 100 pages ([`ReadingBank_images_examples.zip`](https://mail2sysueducn-my.sharepoint.com/:u:/g/personal/huangyp28_mail2_sysu_edu_cn/EbvFmO4BbnxDrgA_a40R8xYB19KIWel7ZcNyBKErwYDwLA?e=dDoscV))) and this subset will be manually checked and redacted while the access of the whole version requires our further permission. All the data in our dataset will be protected by Apache 2.0 license.
+To guarantee there is no potential ethical violation, we publicize a proportion of our dataset (about 100 pages ([`ReadingBank_images_examples.zip`](https://drive.google.com/file/d/15WFandmWvC9VIkj7wXmDfkubsEMyDLQh/view?usp=drive_link))) and this subset will be manually checked and redacted while the access of the whole version requires our further permission. All the data in our dataset will be protected by Apache 2.0 license.
 
 We further provide some [examples](examples/images) of them and the [visualization](examples/visual) of their reading orders.
 
@@ -38,13 +38,12 @@ The ReadingBank consists of 500,000 document pages including the image and the s
 
 If you find ReadingBank helpful, please cite us:
 ```
-@misc{wang2021layoutreader,
-      title={LayoutReader: Pre-training of Text and Layout for Reading Order Detection}, 
-      author={Zilong Wang and Yiheng Xu and Lei Cui and Jingbo Shang and Furu Wei},
-      year={2021},
-      eprint={2108.11591},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{wang2021layoutreader,
+  title={LayoutReader: Pre-training of Text and Layout for Reading Order Detection},
+  author={Wang, Zilong and Xu, Yiheng and Cui, Lei and Shang, Jingbo and Wei, Furu},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  pages={4735--4744},
+  year={2021}
 }
 ```
 
