@@ -13,9 +13,9 @@ Reading order detection, aiming to capture the word sequence which can be natura
 To this end, we propose ReadingBank, a benchmark dataset with 500,000 real-world document images for reading order detection. Distinct from the conventional human-labeled data, the proposed method obtains high-quality reading order annotations in a simple but effective way with automated metadata extraction. Inspired by existing document layout annotations, there are a large number of Microsoft WORD documents with a wide variety of templates that are available on the internet. Typically, the WORD documents have two formats: the binary format (Doc files) and the XML format (DocX files). In this work, we exclusively use WORD documents with the XML format as the reading order information is embedded in the XML metadata. Furthermore, we convert the WORD documents into the PDF format so that the 2D bounding box of each word can be easily extracted using any off-the-shelf PDF parser. Finally, we apply a carefully designed coloring scheme to align the text in the XML metadata with the bounding boxes in PDFs.
 
 ## Download
-Please find the ReadingBank data and LayoutReader models at [this Google Drive link](https://drive.google.com/drive/folders/150JnOCT9psauOpR684_MN4aqeq2U8BlW?usp=drive_link).
+Download the pre-processed ReadingBank data from [Hugging Face](https://huggingface.co/datasets/zilongwang/ReadingBank). The dataset is provided in Parquet format and contains text and layout information.
 
-Specifically, download pre-processed data ([`ReadingBank.zip`](https://drive.google.com/file/d/15SydqWAXWZZRtAmSf6ZD7b51A8ASuC8i/view?usp=drive_link)), which contains text and layout information.
+LayoutReader models are available at [this Google Drive link](https://drive.google.com/drive/folders/150JnOCT9psauOpR684_MN4aqeq2U8BlW?usp=drive_link).
 
 Our data can only be used for research purpose. Please DO NOT re-distribute our data. 
 
