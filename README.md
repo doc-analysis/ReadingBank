@@ -15,7 +15,7 @@ To this end, we propose ReadingBank, a benchmark dataset with 500,000 real-world
 ## Download
 Download the pre-processed ReadingBank data from [Hugging Face](https://huggingface.co/datasets/zilongwang/ReadingBank). The dataset is provided in Parquet format and contains text and layout information.
 
-LayoutReader models are available at [this Google Drive link](https://drive.google.com/drive/folders/150JnOCT9psauOpR684_MN4aqeq2U8BlW?usp=drive_link).
+Download the pre-trained LayoutReader base model from [Hugging Face](https://huggingface.co/zilongwang/layoutreader-base) or the [Google Drive ZIP mirror](https://drive.google.com/file/d/1SWTPj8bSIUhn79gBdVvHM0bQB9NFHJ_F/view?usp=sharing). See the [LayoutReader instructions](https://github.com/microsoft/unilm/tree/master/layoutreader#run) for loading and evaluation.
 
 Our data can only be used for research purpose. Please DO NOT re-distribute our data. 
 
